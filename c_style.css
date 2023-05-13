@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: rgb(148, 193, 245);
+    position: fixed;
+    z-index: 2;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.row{
+    margin-top: 0px;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.heading h2 {
+    font-weight: 600;
+    font-size: 38px;
+    color: #282828;
+    text-transform: capitalize;
+}
+.heading p{
+    font-family: roboto,sans-serif;
+    color: #4e4e4e;
+    background-color: #fff;
+    font-size: 16px;
+}
+.content{
+    margin-top: 40px;
+}
+.button_1{
+    color: white;
+    background-color:#ff9900;
+    border:0.3px solid #ff9900;
+    border-radius:10px;
+    /* height: 20px;
+    width: 50px; */
+    padding: 10px;
+}
+.img_class img{
+    margin-top: 35px;
+    border-radius: 20px;
+    height: 350px;
+}
+.c-1 p, .c-2 p, .c-3 p, .c-4 p{
+    color: black;
+}
+form {
+    margin-left: 300px;
+    margin-right: 300px;
+    /* padding: 100px; */
+}
+form .form-control{
+    border: 2px solid #1851ed;
+    border-radius: 0px;
+    color: black;
+}
+form .submit_button{
+    background: #1851ed;
+    border: 2px solid #1851ed;
+    color: white;
+    width: 100px;
+    font-size: 15px;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+footer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),url(footer-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    /* background-color: black; */
+    height: 80vh;
+    /* opacity: 1; */
+    
+}
+
+.footer_item .footer_logo ul li a {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    background-color: #e8693d;
+    border-radius: 50%;
+    display: block;
+}
+.footer_item .footer_logo p{
+    margin-top: 20px;
+    color: #fff; 
+}
+.footer_item .footer_logo ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px
+}
+.footer_item .footer_logo ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer_item .footer_links ul li{
+    list-style-type: none;
+    margin-right: 10px
+}
+.footer_item .footer_links h3{
+    color: #fff; 
+}
+.footer_item .footer_touch ul li {
+    list-style-type: none;
+    display: block;
+    position: relative;
+    /* padding-left: 40px; */
+    margin-bottom: 12px;
+}
+.footer_item .footer_touch h3, h4, p{
+    color: #fff;
+}
+#foot_1{
+    color: white;
+    background-color:transparent;
+    border:1px solid white;
+    border-radius:10px;
+}
+.row_footer{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.side_nav a {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    background-color: #ff9900;
+    border-radius: 5px;
+    padding: 12px 20px;
+    position: relative;
+    z-index: 1;
+}
+.copyright {
+    background-color: #121f34;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+.copyright .copyright_item p {
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 0;
+}
+
